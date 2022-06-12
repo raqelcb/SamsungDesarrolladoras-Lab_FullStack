@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #131313;
+  --white: #fafafa;
+  --alpha: rgba(0, 0, 0, 0.4);
+  --shadow-first: rgba(92, 92, 92, 0.1);
+  --shadow-second: rgba(82, 82, 82, 0.2);
+  --border: #272727;
+  --marked: #fa8333;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Poppins:400,500,600,700,800,900|Titillium+Web:400,600,700&subset=cyrillic,cyrillic-ext,devanagari,latin-ext,vietnamese");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 20px;
+  font-family: "Poppins", "Montserrant", sans-serif;
+}
+

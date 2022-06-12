@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #131313;
+  --white: #fafafa;
+  --alpha: rgba(0, 0, 0, 0.4);
+  --shadow-first: rgba(92, 92, 92, 0.1);
+  --shadow-second: rgba(82, 82, 82, 0.2);
+  --border: #272727;
+  --marked: #fa8333;
+}
+
+.partner,
+.list-button,
+.gender {
+  margin-right: 15px;
+}
+
+.bottom-container {
+  margin-bottom: 20px;
+}
+
+.button-color {
+  background-color: var(--marked);
+}
+
+.card-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 30px 30px;
+}
